@@ -63,6 +63,9 @@
     <input type="text" id="porduct_name" name="porduct_name"><br><br>
     <button type="submit" value="Submit">Submit </button>
   </form>
-
+{% if name %}
+    <h2>beküldött adat:</h2>
+    <p>Név:{{name}}</p>
+{% endif %}
 </body>
 </html>
